@@ -1,0 +1,10 @@
+.donations input {
+  background: $cDonateButtonDefault;
+  border: 2px solid $cDonateButtonDefaultText;
+  border-radius: 5px;
+  color: $cDonateButtonDefaultText;
+}
+.donations input:hover {
+  background: $cDonateButtonHover;
+  color: $cDonateButtonHoverText;
+}
