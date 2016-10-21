@@ -1,0 +1,37 @@
+footer {
+  position: fixed;
+  z-index: -1000;
+  bottom: 0;
+  width: 100%;
+  background-image: url("../img/grey_wash_wall.png");
+  background-repeat: repeat;
+  text-align: center;
+  padding: 30px 0 1px 0;
+  .social {
+    #fb i,
+    #youtube,
+    #instagram {
+      color: black;
+    }
+    @include desktop {
+      width: 300px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .legal {
+    font-size: .5em;
+  }
+  #fb:hover i {
+    color: #3C5A99;
+  }
+
+  #youtube:hover {
+    color: #C8302A;
+  }
+
+  #instagram:hover {
+    color: #D00055;
+  }
+}

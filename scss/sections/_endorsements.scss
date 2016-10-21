@@ -1,3 +1,18 @@
+.community-spotlight-wrapper {
+  text-align: center;
+  padding-top: 50px;
+  h2 {
+    font-size: 3em;
+    color: $LaPalma;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+}
+.community-spotlight {
+  @include desktop {
+    display: flex;
+  }
+}
+
 .endorsements {
   .endorsement {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -7,5 +22,29 @@
     width: 90%;
     background: white;
     text-align: center;
+    @include desktop {
+      margin: 10px 0 0 0;
+    }
+  }
+  @include desktop {
+    width: 50%;
+    display: inline-block;
+  }
+}
+
+.videos {
+  width: 100%;
+  text-align: center;
+  @include desktop {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+  }
+  iframe {
+    margin-top: 20px;
+    @include desktop {
+      margin-top: 68px;
+    }
   }
 }

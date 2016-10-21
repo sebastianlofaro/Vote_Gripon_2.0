@@ -2,9 +2,20 @@
   box-sizing: border-box;
 }
 
+body {
+  background: white;
+  z-index: 1;
+}
+
 .container {
   width: 100%;
   background-image: url("../img/paper_fibers.png");
+}
+
+.wrapper {
+  margin-bottom: 210px;
+  z-index: 5;
+  background: white;
 }
 
 .paypall-buttons {
